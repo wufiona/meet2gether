@@ -52,44 +52,44 @@ body {
 }
 
 .block_1 {
-  width: 80px;
+  width: 95px;
   height: 154px;
   background: rgba(235,87,97,0.46000000834465027);
   opacity: 1;
   position: absolute;
   top: 295px;
-  left: 93px;
+  left: 100px;
   overflow: hidden;
 }
 
 .block_2 {
-  width: 80px;
+  width: 95px;
   height: 236px;
   background: rgba(124,226,255,0.46000000834465027);
   opacity: 1;
   position: absolute;
   top: 90px;
-  left: 46px;
+  left: 100px;
   overflow: hidden;
 }
 .block_3 {
-  width: 80px;
+  width: 95px;
   height: 154px;
   background: rgba(123,226,255,0.8700000047683716);
   opacity: 1;
   position: absolute;
   top: 172px;
-  left: 46px;
+  left: 100px;
   overflow: hidden;
 }
 .block_4 {
-  width: 80px;
+  width: 95px;
   height: 479px;
   background: rgba(124,226,255,0.46000000834465027);
   opacity: 1;
   position: absolute;
   top: 315px;
-  left: 384px;
+  left: 400px;
   overflow: hidden;
 }
 
@@ -97,154 +97,43 @@ body {
   margin: 2%;
   top: 5%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
-.v21_121 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.time-label {
+  width: 80px;
+  color: black;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 14px;
-  opacity: 1;
   text-align: left;
-}
-.v21_122 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 75px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_123 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 150px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_124 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 225px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_125 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 300px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_126 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 375px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_127 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 450px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_128 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 525px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_129 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 600px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_130 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 675px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v21_131 {
-  width: 58px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 750px;
-  left: 0px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
+  padding: 9%;
 }
 
 .days {
-  width: 100%;
+  top: -3%;
+  left: 10%;
+  width: 90%;
   position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.days p {
   font-family: Poppins;
   font-weight: Regular;
   font-size: 30px;
-  opacity: 1;
-  text-align: center;
 }
 
 aside {
   width: 30%;
   height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
   text-align: center;
 }
 
@@ -255,9 +144,9 @@ aside {
 .meeting-button {
   width: 100%;
   background: white;
-  padding: 12px 10%;
-  margin: 24px 0px;
+  padding: 24px 10%;
   text-align: left;
+  border-width: 2px 0 0 0;
   border-color: black;
 }
 
@@ -304,7 +193,7 @@ aside {
   height: 67px;
   background: rgba(217,217,217,1);
   left: 17%;
-  margin: 5%;
+  margin: 9%;
   border-radius: 13px;
   overflow: hidden;
   text-align: center;
