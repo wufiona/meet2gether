@@ -267,6 +267,7 @@ body {
   opacity: 1;
   text-align: left;
 }
+
 .days {
   width: 100%;
   position: absolute;
@@ -287,15 +288,13 @@ aside {
   overflow: hidden;
 }
 
-.v21_134 {
-  width: 466px;
+.meetings-container {
+  width: 100%;
   height: 687px;
   background: rgba(255,255,255,1);
   padding: 8px 0px;
-  opacity: 1;
   position: absolute;
-  top: 420px;
-  left: 0px;
+  bottom: 5%;
   overflow: hidden;
 }
 .v21_135 {
@@ -507,34 +506,28 @@ aside {
   border-bottom-right-radius: 19px;
   overflow: hidden;
 }
-.name {
-  color: #fff;
-}
-.v21_158 {
+
+.avail_button {
   width: 208px;
   height: 67px;
   background: rgba(217,217,217,1);
-  opacity: 1;
   position: absolute;
-  top: 342px;
-  left: 85px;
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-bottom-right-radius: 13px;
+
+  top: 25%;
+  left: 17%;
+  border-radius: 13px;
   overflow: hidden;
+  text-align: center;
 }
-.v21_159 {
+
+.avail_label {
   width: 179px;
   color: rgba(0,0,0,1);
-  position: absolute;
-  top: 340px;
-  left: 104px;
+  position: relative;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 22px;
-  opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .event-info {
@@ -570,7 +563,7 @@ aside {
   position: relative;
   font-family: Poppins;
   font-weight: Regular;
-  font-size: 22px;
+  font-size: 18px;
   opacity: 1;
   text-align: left;
 }
@@ -601,7 +594,7 @@ aside {
   position: absolute;
   font-family: Poppins;
   font-weight: Regular;
-  font-size: 22px;
+  font-size: 18px;
   opacity: 1;
   text-align: left;
 }
@@ -617,18 +610,6 @@ aside {
   border-radius: 13px;
   overflow: hidden;
 }
-.v21_170 {
-  width: 111px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 2px;
-  right: 30%;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
-}
 .button_2 {
   width: 140px;
   height: 68px;
@@ -640,18 +621,18 @@ aside {
   border-radius: 13px;
   overflow: hidden;
 }
-.v21_172 {
+
+.label {
   width: 111px;
   color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  right: 8%;
+  position: relative;
   font-family: Poppins;
   font-weight: Medium;
-  font-size: 25px;
+  font-size: 22px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
+
 .v21_189 {
   width: 140px;
   height: 68px;
