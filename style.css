@@ -34,6 +34,10 @@ body {
   text-align: center;
 }
 
+.selected {
+  background: rgba(124,226,255,0.46000000834465027) !important;
+}
+
 .cal {
   width: 90%;
   height: 75%;
@@ -231,7 +235,7 @@ aside {
 .least {
   width: 24px;
   height: 24px;
-  background: rgba(123,226,255,0.7400000095367432);
+  background: rgba(123,226,255,0.5400000095367432);
   position: relative;
   overflow: hidden;
 }
@@ -262,7 +266,7 @@ aside {
 .most {
   width: 24px;
   height: 24px;
-  background: rgba(123,226,255,0.7400000095367432);
+  background: rgba(123,226,255,1);
   position: relative;
   overflow: hidden;
 }
@@ -285,7 +289,7 @@ aside {
   opacity: 1;
   position: absolute;
   top: 2px;
-  right: 30%;
+  right: 20%;
   border-radius: 13px;
   overflow: hidden;
 }
@@ -297,6 +301,18 @@ aside {
   position: absolute;
   top: 2px;
   right: 8%;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.button_3 {
+  width: 140px;
+  height: 68px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  right: 32%;
   border-radius: 13px;
   overflow: hidden;
 }
