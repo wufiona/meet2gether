@@ -327,3 +327,21 @@ aside {
   opacity: 1;
   text-align: center;
 }
+
+.button_1, .button_2 {
+  margin-right: 10px;
+}
+
+.avail-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.avail-time {
+  margin-bottom: 5px;
+}
