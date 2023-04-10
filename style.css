@@ -1,5 +1,7 @@
 :root {
   --bg-color: rgba(240,238,238,1);
+  --light-blue: rgba(124,226,255,0.46000000834465027);
+  --less-light-blue: rgba(124,190,225,1);
 }
 
 html {
@@ -57,7 +59,7 @@ body {
 
 .block_1 {
   width: 95px;
-  height: 154px;
+  height: 200px;
   background: rgba(235,87,97,0.46000000834465027);
   opacity: 1;
   position: absolute;
@@ -68,8 +70,8 @@ body {
 
 .block_2 {
   width: 95px;
-  height: 236px;
-  background: rgba(124,226,255,0.46000000834465027);
+  height: 80px;
+  background: rgba(0,128,128,0.46000000834465027);
   opacity: 1;
   position: absolute;
   top: 90px;
@@ -78,8 +80,8 @@ body {
 }
 .block_3 {
   width: 95px;
-  height: 154px;
-  background: rgba(123,226,255,0.8700000047683716);
+  height: 104px;
+  background: rgba(123,226,255,0.4600000047683716);
   opacity: 1;
   position: absolute;
   top: 172px;
@@ -112,7 +114,7 @@ body {
   font-weight: Medium;
   font-size: 14px;
   text-align: left;
-  padding: 9%;
+  padding: 9.5%;
 }
 
 .days {
@@ -211,6 +213,24 @@ aside {
   font-weight: Medium;
   font-size: 22px;
   text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  margin-left: 8%;
+  margin-top: 75px;
+  height: 630px;
+  gap: 0.5px;
+  background-color: rgba(240,240,240,1);
+}
+
+.input-box {
+  background-color: white;
+  flex: 0 0 4.45%;
 }
 
 .event-info {
