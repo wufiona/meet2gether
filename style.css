@@ -286,7 +286,7 @@ aside {
 .most {
   width: 24px;
   height: 24px;
-  background: rgba(123,226,255,1);
+  background: rgb(124,190,225);
   position: relative;
   overflow: hidden;
 }
@@ -337,6 +337,18 @@ aside {
   overflow: hidden;
 }
 
+.button_4 {
+  width: 140px;
+  height: 68px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: relative;
+  top: 2px;
+  right: 33%;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
 .label {
   width: 111px;
   color: rgba(0,0,0,1);
@@ -365,3 +377,19 @@ aside {
 .avail-time {
   margin-bottom: 5px;
 }
+
+.availability-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  /* add any other styles as needed */
+}
+
+.availability-bar {
+  /* existing styles */
+  display: none;
+}
+
