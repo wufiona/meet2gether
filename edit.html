@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>meet2gether</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="editscript.js"></script>
+
+</head>
+
+<body>
+  <div class="main">
+
+    <div class="container">
+      <span class="event-title">Edit Your Base Calendar</span>
+
+      <div class="event-info">
+        <div class="least-container">
+          <div class="least"></div>
+          <span class="least-label">available</span>
+        </div>
+        <button class="button_2"><span class="label">sort on avail.</span></button>
+        <button class="button_3"><span class="label">select time(s)</span></button>
+      </div>
+
+      <!-- calendar block -->
+      <div class="cal">
+        <div class="days">
+          <p>sun</p>
+          <p>mon</p>
+          <p>tue</p>
+          <p>wed</p>
+          <p>thu</p>
+          <p>fri</p>
+          <p>sat</p>
+        </div>
+        <div class="times">
+          <span class="time-label">8 am</span><br />
+          <span class="time-label">9 am</span><br />
+          <span class="time-label">10 am</span><br />
+          <span class="time-label">11 am</span><br />
+          <span class="time-label">12 pm</span><br />
+          <span class="time-label">1 pm</span><br />
+          <span class="time-label">2 pm</span><br />
+          <span class="time-label">3 pm</span><br />
+          <span class="time-label">4 pm</span><br />
+          <span class="time-label">5 pm</span><br />
+          <span class="time-label">6 pm</span><br />
+          <span class="time-label">7 pm</span><br />
+        </div>
+
+        <!-- Temporary Data -->
+        <div class="input-container">
+          <div class="input-box" id="a1" onclick="beSelected('a1')"></div>
+          <div class="input-box" id="a2" onclick="beSelected('a2')"></div>
+          <div class="input-box" id="a3" onclick="beSelected('a3')"></div>
+          <div class="input-box" id="a4" onclick="beSelected('a4')" style="background-color: var(--light-blue)"></div>
+          <div class="input-box" id="a5" onclick="beSelected('a5')" style="background-color: var(--light-blue)"></div>
+          <div class="input-box" id="a6" onclick="beSelected('a6')"></div>
+          <div class="input-box" id="a7" onclick="beSelected('a7')"></div>
+          <div class="input-box" id="a8" onclick="beSelected('a8')"></div>
+          <div class="input-box" id="a9" onclick="beSelected('a9')"></div>
+          <div class="input-box" id="a10" onclick="beSelected('a10')"></div>
+          <div class="input-box" id="a11" onclick="beSelected('a11')"></div>
+          <div class="input-box" id="a12" onclick="beSelected('a12')"></div>
+          <div class="input-box" id="a13" onclick="beSelected('a13')"></div>
+          <div class="input-box" id="a14" onclick="beSelected('a14')"></div>
+          <div class="input-box" id="a15" onclick="beSelected('a15')"></div>
+          <div class="input-box" id="a16" onclick="beSelected('a16')"></div>
+          <div class="input-box" id="a17" onclick="beSelected('a17')" style="background-color: var(--light-blue)"></div>
+          <div class="input-box" id="a18" onclick="beSelected('a18')" style="background-color: var(--light-blue)"></div>
+          <div class="input-box" id="a19" onclick="beSelected('a19')" style="background-color: var(--light-blue)"></div>
+          <div class="input-box" id="a20" onclick="beSelected('a20')"></div>
+          <div class="input-box" id="a21" onclick="beSelected('a21')"></div>
+          <div class="input-box" id="a22" onclick="beSelected('a22')"></div>
+          <div class="input-box" id="a23" onclick="beSelected('a23')"></div>
+          <div class="input-box" id="a24" onclick="beSelected('a24')"></div>
+          <div class="input-box" id="a25" onclick="beSelected('a25')"></div>
+          <div class="input-box" id="a26" onclick="beSelected('a26')"></div>
+          <div class="input-box" id="a27" onclick="beSelected('a27')"></div>
+          <div class="input-box" id="a28" onclick="beSelected('a28')"></div>
+          <div class="input-box" id="a29" onclick="beSelected('a29')"></div>
+          <div class="input-box" id="a30" onclick="beSelected('a30')"></div>
+          <div class="input-box" id="a31" onclick="beSelected('a31')"></div>
+          <div class="input-box" id="a32" onclick="beSelected('a32')"></div>
+          <div class="input-box" id="a33" onclick="beSelected('a33')"></div>
+          <div class="input-box" id="a34" onclick="beSelected('a34')"></div>
+          <div class="input-box" id="a35" onclick="beSelected('a35')"></div>
+          <div class="input-box" id="a36" onclick="beSelected('a36')"></div>
+          <div class="input-box" id="a37" onclick="beSelected('a37')"></div>
+          <div class="input-box" id="a38" onclick="beSelected('a38')"></div>
+          <div class="input-box" id="a39" onclick="beSelected('a39')"></div>
+          <div class="input-box" id="a40" onclick="beSelected('a40')"></div>
+          <div class="input-box" id="a41" onclick="beSelected('a41')"></div>
+          <div class="input-box" id="a42" onclick="beSelected('a42')"></div>
+          <div class="input-box" id="a43" onclick="beSelected('a43')"></div>
+          <div class="input-box" id="a44" onclick="beSelected('a44')"></div>
+          <div class="input-box" id="a45" onclick="beSelected('a45')"></div>
+          <div class="input-box" id="a46" onclick="beSelected('a46')"></div>
+          <div class="input-box" id="a47" onclick="beSelected('a47')"></div>
+          <div class="input-box" id="a48" onclick="beSelected('a48')"></div>
+          <div class="input-box" id="a49" onclick="beSelected('a49')"></div>
+          <div class="input-box" id="a50" onclick="beSelected('a50')"></div>
+          <div class="input-box" id="a51" onclick="beSelected('a51')"></div>
+          <div class="input-box" id="a52" onclick="beSelected('a52')"></div>
+          <div class="input-box" id="a53" onclick="beSelected('a53')"></div>
+          <div class="input-box" id="a54" onclick="beSelected('a54')"></div>
+          <div class="input-box" id="a55" onclick="beSelected('a55')"></div>
+          <div class="input-box" id="a56" onclick="beSelected('a56')"></div>
+          <div class="input-box" id="a57" onclick="beSelected('a57')"></div>
+          <div class="input-box" id="a58" onclick="beSelected('a58')"></div>
+          <div class="input-box" id="a59" onclick="beSelected('a59')"></div>
+          <div class="input-box" id="a60" onclick="beSelected('a60')"></div>
+          <div class="input-box" id="a61" onclick="beSelected('a61')"></div>
+          <div class="input-box" id="a62" onclick="beSelected('a62')"></div>
+          <div class="input-box" id="a63" onclick="beSelected('a63')"></div>
+          <div class="input-box" id="a64" onclick="beSelected('a64')"></div>
+          <div class="input-box" id="a65" onclick="beSelected('a65')"></div>
+          <div class="input-box" id="a66" onclick="beSelected('a66')"></div>
+          <div class="input-box" id="a67" onclick="beSelected('a67')"></div>
+          <div class="input-box" id="a68" onclick="beSelected('a68')"></div>
+          <div class="input-box" id="a69" onclick="beSelected('a69')"></div>
+          <div class="input-box" id="a70" onclick="beSelected('a70')"></div>
+          <div class="input-box" id="a71" onclick="beSelected('a71')"></div>
+          <div class="input-box" id="a72" onclick="beSelected('a72')"></div>
+          <div class="input-box" id="a73" onclick="beSelected('a73')"></div>
+          <div class="input-box" id="a74" onclick="beSelected('a74')"></div>
+          <div class="input-box" id="a75" onclick="beSelected('a75')"></div>
+          <div class="input-box" id="a76" onclick="beSelected('a76')"></div>
+          <div class="input-box" id="a77" onclick="beSelected('a77')"></div>
+          <div class="input-box" id="a78" onclick="beSelected('a78')"></div>
+          <div class="input-box" id="a79" onclick="beSelected('a79')"></div>
+          <div class="input-box" id="a80" onclick="beSelected('a80')"></div>
+          <div class="input-box" id="a81" onclick="beSelected('a81')"></div>
+          <div class="input-box" id="a82" onclick="beSelected('a82')"></div>
+          <div class="input-box" id="a83" onclick="beSelected('a83')"></div>
+          <div class="input-box" id="a84" onclick="beSelected('a84')"></div>
+          <div class="input-box" id="a85" onclick="beSelected('a85')"></div>
+          <div class="input-box" id="a86" onclick="beSelected('a86')"></div>
+          <div class="input-box" id="a87" onclick="beSelected('a87')"></div>
+          <div class="input-box" id="a88" onclick="beSelected('a88')"></div>
+          <div class="input-box" id="a89" onclick="beSelected('a89')"></div>
+          <div class="input-box" id="a90" onclick="beSelected('a90')"></div>
+          <div class="input-box" id="a91" onclick="beSelected('a91')"></div>
+          <div class="input-box" id="a92" onclick="beSelected('a92')"></div>
+          <div class="input-box" id="a93" onclick="beSelected('a93')"></div>
+          <div class="input-box" id="a94" onclick="beSelected('a94')"></div>
+          <div class="input-box" id="a95" onclick="beSelected('a95')"></div>
+          <div class="input-box" id="a96" onclick="beSelected('a96')"></div>
+          <div class="input-box" id="a97" onclick="beSelected('a97')"></div>
+          <div class="input-box" id="a98" onclick="beSelected('a98')"></div>
+          <div class="input-box" id="a99" onclick="beSelected('a99')"></div>
+          <div class="input-box" id="a100" onclick="beSelected('a100')"></div>
+          <div class="input-box" id="a101" onclick="beSelected('a101')"></div>
+          <div class="input-box" id="a102" onclick="beSelected('a102')"></div>
+          <div class="input-box" id="a103" onclick="beSelected('a103')"></div>
+          <div class="input-box" id="a104" onclick="beSelected('a104')"></div>
+          <div class="input-box" id="a105" onclick="beSelected('a105')"></div>
+          <div class="input-box" id="a106" onclick="beSelected('a106')"></div>
+          <div class="input-box" id="a107" onclick="beSelected('a107')" style="background-color: var(--light-blue)">
+          </div>
+          <div class="input-box" id="a108" onclick="beSelected('a108')" style="background-color: var(--light-blue)">
+          </div>
+          <div class="input-box" id="a109" onclick="beSelected('a109')" style="background-color: var(--light-blue)">
+          </div>
+          <div class="input-box" id="a110" onclick="beSelected('a110')" style="background-color: var(--light-blue)">
+          </div>
+          <div class="input-box" id="a111" onclick="beSelected('a111')" style="background-color: var(--light-blue)">
+          </div>
+          <div class="input-box" id="a112" onclick="beSelected('a112')"></div>
+          <div class="input-box" id="a113" onclick="beSelected('a113')"></div>
+          <div class="input-box" id="a114" onclick="beSelected('a114')"></div>
+          <div class="input-box" id="a115" onclick="beSelected('a115')"></div>
+          <div class="input-box" id="a116" onclick="beSelected('a116')"></div>
+          <div class="input-box" id="a117" onclick="beSelected('a117')"></div>
+          <div class="input-box" id="a118" onclick="beSelected('a118')"></div>
+          <div class="input-box" id="a119" onclick="beSelected('a119')"></div>
+          <div class="input-box" id="a120" onclick="beSelected('a120')"></div>
+          <div class="input-box" id="a121" onclick="beSelected('a121')"></div>
+          <div class="input-box" id="a122" onclick="beSelected('a122')"></div>
+          <div class="input-box" id="a123" onclick="beSelected('a123')"></div>
+          <div class="input-box" id="a124" onclick="beSelected('a124')"></div>
+          <div class="input-box" id="a125" onclick="beSelected('a125')"></div>
+          <div class="input-box" id="a126" onclick="beSelected('a126')"></div>
+          <div class="input-box" id="a127" onclick="beSelected('a127')"></div>
+          <div class="input-box" id="a128" onclick="beSelected('a128')"></div>
+          <div class="input-box" id="a129" onclick="beSelected('a129')"></div>
+          <div class="input-box" id="a130" onclick="beSelected('a130')"></div>
+          <div class="input-box" id="a131" onclick="beSelected('a131')"></div>
+          <div class="input-box" id="a132" onclick="beSelected('a132')"></div>
+          <div class="input-box" id="a133" onclick="beSelected('a133')"></div>
+          <div class="input-box" id="a134" onclick="beSelected('a134')"></div>
+          <div class="input-box" id="a135" onclick="beSelected('a135')"></div>
+          <div class="input-box" id="a136" onclick="beSelected('a136')"></div>
+          <div class="input-box" id="a137" onclick="beSelected('a137')"></div>
+          <div class="input-box" id="a138" onclick="beSelected('a138')"></div>
+          <div class="input-box" id="a139" onclick="beSelected('a139')"></div>
+          <div class="input-box" id="a140" onclick="beSelected('a140')"></div>
+          <div class="input-box" id="a141" onclick="beSelected('a141')"></div>
+          <div class="input-box" id="a142" onclick="beSelected('a142')"></div>
+          <div class="input-box" id="a143" onclick="beSelected('a143')"></div>
+          <div class="input-box" id="a144" onclick="beSelected('a144')"></div>
+          <div class="input-box" id="a145" onclick="beSelected('a145')"></div>
+          <div class="input-box" id="a146" onclick="beSelected('a146')"></div>
+          <div class="input-box" id="a147" onclick="beSelected('a147')"></div>
+          <div class="input-box" id="a148" onclick="beSelected('a148')"></div>
+          <div class="input-box" id="a149" onclick="beSelected('a149')"></div>
+          <div class="input-box" id="a150" onclick="beSelected('a150')"></div>
+          <div class="input-box" id="a151" onclick="beSelected('a151')"></div>
+          <div class="input-box" id="a152" onclick="beSelected('a152')"></div>
+          <div class="input-box" id="a153" onclick="beSelected('a153')"></div>
+          <div class="input-box" id="a154" onclick="beSelected('a154')"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- side bar -->
+    <aside>
+
+      <div class="pfp"></div>
+      <span class="name-tag">bob</span>
+      <br />
+      <a href="edit.html">
+        <button class="avail_button">
+          <span class="avail_label">edit availability</span>
+        </button>
+      </a>
+
+      <div class="meetings-container">
+
+        <a href = "boardMeeting.html">
+        <button class="meeting-button">
+          <div class="meeting-icon"></div>
+          <span class="meeting-label">Board Meeting</span>
+        </button>
+        </a>
+
+        <a href="bandPratice.html">
+          <button class="meeting-button">
+            <div class="meeting-icon"></div>
+            <span class="meeting-label">Band Practice</span>
+          </button>
+          </button></a>
+
+        <a href="index.html">
+          <button class="meeting-button">
+            <div class="meeting-icon"></div>
+            <span class="meeting-label">Lunch with Emily</span>
+          </button></a>
+
+        <button class="meeting-button" style="border-width: 2px 0;">
+          <div class="name"></div>
+          <span class="meeting-label" style="color: grey">Join/Create a New Meeting</span>
+        </button>
+      </div>
+
+    </aside>
+  </div>
+  <script>
+  </script>
+
+</body>
+
+</html>

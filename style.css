@@ -2,6 +2,11 @@
   --bg-color: rgba(240,238,238,1);
   --light-blue: rgba(124,226,255,0.46000000834465027);
   --less-light-blue: rgba(124,190,225,1);
+  --light-green: rgba(162, 227, 161);
+  --less-light-green: rgba(98, 156, 96);
+  --light-purple: #EEE1FF;
+  --less-light-purple: #DCC1FF;
+  --lesser-light-purple: rgba(204, 167, 252);
 }
 
 html {
@@ -39,6 +44,18 @@ body {
 .selected {
   background: rgba(124,226,255,0.46000000834465027) !important;
 }
+
+.selectedg {
+  background: rgba(162, 227, 161) !important;
+}
+
+
+.selectedp {
+  background: #EEE1FF !important;
+}
+
+
+
 
 .cal {
   width: 90%;
@@ -260,6 +277,21 @@ aside {
   overflow: hidden;
 }
 
+.least-green {
+  width: 24px;
+  height: 24px;
+  background: rgba(162, 227, 161);
+  position: relative;
+  overflow: hidden;
+}
+.least-purple {
+  width: 24px;
+  height: 24px;
+  background: #EEE1FF;
+  position: relative;
+  overflow: hidden;
+}
+
 .least-label {
   width: 162px;
   color: rgba(0,0,0,1);
@@ -283,10 +315,46 @@ aside {
   overflow: hidden;
 }
 
+.moster-container {
+  width: 227px;
+  height: 53px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  left: 40%;
+  overflow: hidden;
+}
+
 .most {
   width: 24px;
   height: 24px;
-  background: rgba(123,226,255,1);
+  background: rgb(124,190,225);
+  position: relative;
+  overflow: hidden;
+}
+
+.most-green {
+  width: 24px;
+  height: 24px;
+  background: rgb(98, 156, 96);
+  position: relative;
+  overflow: hidden;
+}
+
+.most-purple {
+  width: 24px;
+  height: 24px;
+  background: #DCC1FF;
+  position: relative;
+  overflow: hidden;
+}
+
+.moster-purple {
+  width: 24px;
+  height: 24px;
+  background: rgba(204, 167, 252);
   position: relative;
   overflow: hidden;
 }
@@ -301,6 +369,8 @@ aside {
   opacity: 1;
   text-align: left;
 }
+
+
 
 .button_1 {
   width: 140px;
@@ -331,6 +401,18 @@ aside {
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute;
+  top: 2px;
+  right: 23%;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.button_4 {
+  width: 140px;
+  height: 68px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: relative;
   top: 2px;
   right: 33%;
   border-radius: 13px;
@@ -365,3 +447,19 @@ aside {
 .avail-time {
   margin-bottom: 5px;
 }
+
+.availability-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  /* add any other styles as needed */
+}
+
+.availability-bar {
+  /* existing styles */
+  display: none;
+}
+

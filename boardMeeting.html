@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>meet2gether</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <div class="main">
+
+    <div class="container">
+      <span class="event-title">Board Meeting</span>
+
+      <div class="event-info">
+        <div class="least-container">
+          <div class="least-purple"></div>
+          <span class="least-label">3/5 available</span>
+        </div>
+
+        <div class="most-container">
+          <div class="most-purple"></div>
+          <span class="most-label">4/5 available</span>
+        </div>
+
+        <div class="moster-container">
+          <div class="moster-purple"></div>
+          <span class="most-label">5/5 available</span>
+        </div>
+        <button class="button_2"><span class="label">sort on avail.</span></button>
+        <button id="share-btn" class="button_3"><span class="label">share</span></button>
+      </div>
+
+      <!-- calendar block -->
+      <div class="cal">
+        <div class="days">
+          <p>sun</p>
+          <p>mon</p>
+          <p>tue</p>
+          <p>wed</p>
+          <p>thu</p>
+          <p>fri</p>
+          <p>sat</p>
+        </div>
+        <div class="times">
+          <span class="time-label">8 am</span><br />
+          <span class="time-label">9 am</span><br />
+          <span class="time-label">10 am</span><br />
+          <span class="time-label">11 am</span><br />
+          <span class="time-label">12 pm</span><br />
+          <span class="time-label">1 pm</span><br />
+          <span class="time-label">2 pm</span><br />
+          <span class="time-label">3 pm</span><br />
+          <span class="time-label">4 pm</span><br />
+          <span class="time-label">5 pm</span><br />
+          <span class="time-label">6 pm</span><br />
+          <span class="time-label">7 pm</span><br />
+        </div>
+
+        <!-- Temporary Data -->
+        <div class="input-container">
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box"style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"  style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple);"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--less-light-purple)"></div>
+          <div class="input-box" style="background-color: var(--less-light-purple)"></div>
+          <div class="input-box" style="background-color: var(--less-light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box" style="background-color: var(--light-purple)"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box"></div>
+          <div class="input-box" style="background-color: var(--less-light-purple);"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+          <div class="input-box" style="background-color: var(--lesser-light-purple);"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- side bar -->
+    <aside>
+
+      <div class="pfp"></div>
+      <span class="name-tag">bob</span>
+      <br />
+      <a href="edit.html">
+        <button class="avail_button">
+          <span class="avail_label">edit calendar</span>
+        </button>
+      </a>
+
+      <div class="meetings-container">
+
+        <button class="meeting-button selectedp">
+          <div class="meeting-icon"></div>
+          <span class="meeting-label">Board Meeting</span>
+        </button>
+
+        <a href ="bandPratice.html">
+        <button class="meeting-button">
+          <div class="meeting-icon"></div>
+          <span class="meeting-label">Band Practice</span>
+        </button>
+        </a>
+
+        <a href="index.html">
+          <button class="meeting-button">
+            <div class="meeting-icon"></div>
+            <span class="meeting-label">Lunch with Emily</span>
+          </button>
+        </a>
+
+        <button class="meeting-button" style="border-width: 2px 0;">
+          <div class="name"></div>
+          <span class="meeting-label" style="color: grey">Join/Create a New Meeting</span>
+        </button>
+      </div>
+
+    </aside>
+  </div>
+  <script>
+    const shareBtn = document.getElementById("share-btn");
+
+    shareBtn.addEventListener("click", () => {
+      const emails = prompt("Enter the email addresses separated by commas:");
+
+      if (emails) {
+        const subject = "Invitation to Lunch with Emily";
+        const body = "Hi,\n\nYou are invited to lunch with Emily on one of the following dates:\n\n- April 5th at 12pm\n- April 6th at 1pm\n- April 7th at 2pm\n\nPlease let us know which date works best for you by filling out this link.";
+
+        const mailtoLink = `mailto:${emails}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.location.href = mailtoLink;
+      }
+    });
+  </script>
+
+</body>
+
+</html>
